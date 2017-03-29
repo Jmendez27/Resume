@@ -1,0 +1,208 @@
+html {
+	position: relative;
+  width: 100%;
+	background-color: #ffffff;
+}
+body {
+  width: 100%;
+  position: relative;
+  text-align: left;
+  background-color: #6d7993;
+  border-style: double;
+  border-width: .625rem;
+  padding-bottom: .625rem;
+  padding-top: .625rem;
+}
+img.banner {
+	max-width: 50rem;
+	 width: 80%;
+	 height: 4.5rem;
+}
+div.center {
+	width: 100%;
+	max-width: 50rem;
+	height: auto;
+	margin-left: 10%;
+	margin-right: auto;
+
+}
+article {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+nav {
+	margin: auto;
+	position:static;
+  margin-bottom: 0;
+	margin-left: 25%;
+  padding: .00625rem;
+}
+nav ul {
+  position: static;
+  list-style-type: none;
+  margin-bottom: .625rem;
+  padding: 0;
+  background-color: #96858f;
+  width: 10rem;
+}
+nav li {
+  width: 5rem;
+  display: block;
+  background-color: #96858f;
+  float: left;
+  font-family: Georgia, Arial, Serif;
+}
+nav li a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  text-align: center;
+}
+header {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 1.5625rem;
+  display: block;
+  width: 100%;
+  height: 5.625rem;
+}
+/* Code that still uses px amounts are on the page I havent made responsive yet */
+section {
+  background-color: #96858f;
+  width: 25rem;
+  height: 20.3125rem;
+  float: left;
+  display: inline-block;
+ }
+ iframe {
+	 width: 25rem;
+	 height: 20.3125rem;
+	 display:inline-block;
+ }
+ img.me {
+	 width: 25rem;
+	 height: 20.3125rem;
+   display: inline-block;
+   float: left;
+   margin: auto;
+   overflow: hidden;
+ }
+ div.address {
+ 	margin: auto;
+	margin-top: 5rem;
+ 	text-align: center;
+ }
+ address {
+   font-family: "Helvetica Neueu", Arial, serif;
+   font-style: normal;
+   font-weight: normal;
+}
+ p.section {
+   vertical-align: middle;
+   margin-left: 4%;
+   margin-top: 5%;
+   margin-right: 4%;
+ }
+ p.section1 {
+   margin-left: 4%;
+   margin-top: 5%;
+   margin-right: 4%;
+}
+h1 {
+  font-family: Verdana, Serif;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+h1.center {
+  vertical-align: middle;
+  text-align: center;
+  float: left;
+  display:inline-block;
+  overflow: hidden;
+}
+h2 {
+		font-size: 1.2rem;
+	}
+h2, h3 {
+  text-align: center;
+  font-family: Verdana, Serif;
+}
+p {
+  font-family: "Helvetica Neueu", Arial, serif;
+}
+@media print {
+	nav, header {
+		display: none;
+	}
+	html {
+		position: relative;
+	  width: 100%;
+		margin: 0;
+	}
+	body {
+		width: 96%;
+		text-align: left;
+		border-style: double;
+		border-width: .625rem;
+		padding-bottom: .625rem;
+		padding-top: .625rem;
+    font-family: Georgia, serif;
+    background-color: #ffffff;
+    color: #000000;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+	html {
+		position: relative;
+	  width: 100%;
+		margin: 0;
+	}
+	h2 {
+	font-size: 1.3rem;
+	}
+}
+@media only screen and (min-width: 768px) {
+	html {
+		position: relative;
+	  width: 100%;
+		margin: 0;
+	}
+	div.center {
+		margin-left:23%;
+	}
+	nav {
+		margin: auto;
+		position: fixed;
+	}
+	nav ul {
+	width: 3.75rem;
+}
+	nav li {
+	  width: 4.5rem;
+	}
+	h2 {
+		font-size: 1.6rem;
+	}
+}
+	@media only screen and (min-width: 1024px){
+	nav {
+		margin: auto;
+		position: fixed;
+	}
+	div.center {
+		margin: auto;
+	}
+	nav ul {
+	width: 3.75rem;
+}
+	nav li {
+		width: 4.5rem;
+	}
+	h2 {
+		font-size: 1rem;
+	}
+}
